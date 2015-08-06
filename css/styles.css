@@ -1,0 +1,184 @@
+body {
+    background-image: url(../images/farmer.png);
+}
+main#home {
+    background: url(../images/Discovery.jpg) no-repeat;
+    -webkit-box-shadow: -3px -2px 80px -5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -3px -2px 80px -5px rgba(0, 0, 0, 1);
+    box-shadow: -3px -2px 80px -5px rgba(0, 0, 0, 1);
+}
+main#home header {
+    background: #482B16;
+    height: 90px;
+}
+div#brand {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px
+}
+div#brand a {
+    font-size: 1.5em;
+    font-family: "Chelsea Market";
+    font-weight: bold;
+    line-height: 1em;
+    color: #FFF;
+    text-decoration: none;
+}
+div#brand a span {
+    font-size: .7em;
+    color: #CCC;
+    font-family: "Noticia Text"
+}
+div#brand a:hover {
+    color: #C02A24;
+}
+div#search {
+    text-align: right;
+    margin-top: 25px;
+}
+div#search input {
+    background: #A39988;
+    height: 30px;
+    width: 260px;
+    padding: 10px;
+    color: #FFF;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0;
+}
+div#search input:focus {
+    border: 1px solid red;
+}
+div#search i.fa-search {
+    padding-left: 3px;
+    color: #A39988;
+}
+div#menu {
+    margin-top: 29px;
+    margin-left: 20px;
+}
+div#menu i.fa-bars {
+    color: #C02A24;
+}
+div#menu i.fa-bars:hover {
+    color: #FFF;
+}
+section.row div#background {
+    height: 150px;
+    background: #A17356;
+    margin-top: 250px;
+}
+nav {
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    background: #C02A24;
+    font-size: 1.5em;
+    font-family: "Chelsea Market";
+    width: 90px;
+    padding: 30px;
+    display: inline-block;
+    border: 2px dashed #FFF;
+    border-radius: 100px;
+    -webkit-box-shadow: -3px -3px 96px -22px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -3px -3px 96px -22px rgba(0, 0, 0, 1);
+    box-shadow: -3px -3px 96px -22px rgba(0, 0, 0, 1);
+}
+nav ul li a:hover {
+    background: #482B16;
+    color: #FFF;
+    box-shadow: -6px -8px 20px #482B16, -4px 7px 20px #482B16, 6px -4px 20px #482B16;
+}
+footer {
+    background: #482B16;
+    height: 50px;
+    color: #A39988;
+    text-align: center;
+}
+footer p {
+    padding-top: 15px;
+    margin: 0;
+}
+div#footerLinks {
+    padding-top: 8px;
+    padding-right: 35px;
+}
+div#footerLinks i {
+    margin-left: 5px;
+    background: RGBA(192, 42, 36, 0.4);
+    padding: 10px;
+    width: 15px;
+    color: #A39988
+}
+div#footerLinks i:hover {
+    background: RGBA(192, 42, 36, 1);
+    color: #FFF;
+}
+
+
+/* About Page  */
+body {
+    background-image: url(../images/farmer.png);
+}
+main#about {
+    background: #FFF;
+    background: url(../images/ExtBldg-02.jpg) no-repeat 0px -381px;
+   
+}
+
+main#about div#brand {
+    background: #A17356;
+    padding-left: 20px
+}
+
+
+nav#vertNav {
+    position: relative;
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #796A5A;
+}
+
+nav#vertNav ul li {
+    display: block;
+    margin-left: 15px;
+}
+nav#vertNav ul li a {
+    font-size: 1em;
+    width: 60px;
+    padding: 20px;
+    display: block;
+    border-radius: 60px;
+}
+
+
+#vertNavFoot {
+    background: #796A5A;
+    height: 300px;
+}
+#vertNavFoot div p {
+    padding-top: 15px;
+    padding-right: 5px;
+    
+    text-align: right;
+    font-size: .65em;
+}
+#vertNavFoot div#footerLinks {
+    padding-right: 5px;
+}
+#vertNavFoot div#footerLinks i {
+    margin: 5px;
+    
+}
